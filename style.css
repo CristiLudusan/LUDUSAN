@@ -936,6 +936,11 @@ body {
         max-width: 300px;
     }
 
+    .hero-image {
+        -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+        mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    }
+
     .ticker-container {
         padding: 0 15px; 
         margin-top: 10px;
